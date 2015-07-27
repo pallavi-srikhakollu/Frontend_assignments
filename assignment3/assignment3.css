@@ -8,12 +8,11 @@ header{
 background-color: white;
 height: 55px;
 width: auto;
-/*padding-left: 112px;
-*/}
+}
 
 .hli li {
 	float: left;
- /*padding: 2px 25px;*/
+ 
  margin-left: 30px;
   margin-top: 11px;
  font-weight: 400;
@@ -74,7 +73,7 @@ border-radius: 10px;
     border: none;
    height: 40px;
     background: none;
-   /* margin-left: 31px;*/
+  
     width: 41px;
 background-color: white;
 border-radius: 10px;
@@ -97,9 +96,6 @@ border-radius: 10px;
     position: absolute;
 top: 335px;
 
-/*height: 100px;
-right: 848px;*/
-
 color: white;
 font-size: 44px;
 font-weight: lighter;
@@ -110,8 +106,7 @@ letter-spacing: -1px;
 .banner h6{
     position: absolute;
 top: 365px;
-/*height: 144px;
-right: 477px;*/
+
 font-size: 22px;
 color:#ffffff;
 font-weight: normal; 
@@ -131,33 +126,16 @@ background-color: #ecab1f;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-span{
-    display: block;
-width: 220px;
-    height: 60px;
-    border-radius: 8px;
-background: #efefef;.
-float:left;
-margin-right: 20px;
-text-align: center;
 
-}
 .mlist li {
     float:left;
     /*margin-right: 20px;*/
 } 
-.last {
+.last span{
     margin-right: 0px;
     /*float:left;*/
 }
-.mlist p{
-      margin: 0 auto;
-  padding-top: 18px;
-  padding-left: 19px;
-  font-size: 22px;
-  float:left;
-  color:#222222;
-}
+
 .mlist img{
     padding-top: 17px;
   float: right;
@@ -177,46 +155,59 @@ font-family: arial;
 font-weight: 500;
 margin-bottom: 14px;
 }
-.lower h6{
-  /*padding: 15px 10px;*/
 
-font-size: 11px;
-/*margin-top: 0px;*/
-color:white;
-padding-top: 15px;
-padding-left: 24px;
-margin: 0px;
-
-}
-.lower p{
-  /*padding: 15px 10px;*/
-
-font-size: 18px;
-margin-top: 0px;
-color:white;
-padding-top: 4px;
-padding-left: 24px;
-
-
-}
 .lspan{
+    display: block;
 text-align: left;
-
+margin-right: 20px;
 height:63px;
 width:300px;
 background-color: #4466ff;
 border-radius: 0px;
 font-weight: 600;
 }
-/*.textlist{
-  padding-top: 16px;
-width: 300px;
-height: 0px;
-background-color: #4466ff;
-}*/
+
 .lower ul li{
   float:left;
 }
 .lower a{
   text-decoration: none;
+}
+.shape{
+display: block;
+width: 220px;
+    height: 60px;
+    border-radius: 8px;
+background: #efefef;.
+float:left;
+margin-right: 20px;
+
+  
+}
+.text{
+margin-top: 18px;
+  padding-left: 19px;
+  font-size: 22px;
+  float: left;
+  color: #222222;
+  text-align: left;
+  height: 0px;
+}
+.uppertext {
+  font-size: 11px;
+color:white;
+padding-top: 15px;
+padding-left: 24px;
+margin: 0px;
+  padding-bottom: 4px;
+}
+
+.lowertext{
+
+  font-size: 18px;
+margin-top: 0px;
+color:white;
+padding-top: 4px;
+padding-left: 24px;
+
 }

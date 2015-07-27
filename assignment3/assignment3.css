@@ -1,6 +1,7 @@
-body{
+*{
 
-    margin: 0 auto;
+    margin: 0px;
+    padding:0px;
 }
 
 
@@ -13,8 +14,8 @@ width: auto;
 .hli li {
 	float: left;
  
- margin-left: 30px;
-  margin-top: 11px;
+/* margin-left: 30px;
+  margin-top: 11px;*/
  font-weight: 400;
 
 }
@@ -23,7 +24,8 @@ font-size: 16px;
 color:#000;
 text-decoration: none;
 font-style: bold;
-    
+display:block;
+    padding: 11px 30px;
 
 }
 ul{
@@ -82,9 +84,10 @@ border-radius: 10px;
     max-width: 17px;
 }
 .banner{
- /*position: relative;*/
+ 
 	background-color: black;
     width: 100%;
+    clear: both;
 }
 
 .banner img{
@@ -94,7 +97,7 @@ border-radius: 10px;
 .banner h1{
 
     position: absolute;
-top: 335px;
+top: 345px;
 
 color: white;
 font-size: 44px;
@@ -105,7 +108,7 @@ letter-spacing: -1px;
 }
 .banner h6{
     position: absolute;
-top: 365px;
+top: 396px;
 
 font-size: 22px;
 color:#ffffff;
@@ -129,21 +132,39 @@ background-color: #ecab1f;
 
 .mlist li {
     float:left;
-    /*margin-right: 20px;*/
+   
 } 
-.last span{
-    margin-right: 0px;
-    /*float:left;*/
+.mlist span{
+  
+  display: block;
+font-size: 22px;
+color: #222222;
+padding: 10px 10px 10px 10px;
+float: left;
+}
+
+.mlist .last {
+   margin-right: 0px;
 }
 
 .mlist img{
-    padding-top: 17px;
-  float: right;
-  padding-right: 15px;
+  padding-top: 15px;
+float: right;
+
+padding-right:14px;
+    
 }
 .mlist a{
     text-decoration: none;
+    display: block;
+width: 220px;
+    height: 60px;
+    border-radius: 8px;
+background: #efefef;.
+float:left;
+margin-right: 20px;
 }
+
 .heading{
   margin-top: 60px;
 }
@@ -200,6 +221,8 @@ padding-top: 15px;
 padding-left: 24px;
 margin: 0px;
   padding-bottom: 4px;
+  display:block;
+
 }
 
 .lowertext{
@@ -210,4 +233,10 @@ color:white;
 padding-top: 4px;
 padding-left: 24px;
 
+}
+.lower .last {
+   margin-right: 0px;
+}
+a{
+  display:block;
 }

@@ -1,37 +1,42 @@
+
 header{
-	background-color: black;
-	margin-bottom: 20px;
+	background-color: #000;
+	width:100%;
 }
-.logo{
-	font-size: 24px;
+
+.title{
+
+font-size: 24px;
 	font-weight: 600;
-	text-decoration: none;
+	
 	color: grey;
 	padding: 13px 13px 13px 0px;
 }
-.menu{
-	padding: 0px;
-	margin: 0px;
+ a:hover{
+	color:white;
+	text-decoration: none;
+
 }
-.menu li
-{
-	list-style-type: none;
+.hlist li{
+
+list-style-type: none;
 	display: inline-block;
 	font-size: 16px;
 	font-weight: bold;
 	margin-top: 15px;
 }
-.menu li a{
+.hlist li a{
 	margin:0px;
 	color: grey;
 	padding: 15px;
+	text-decoration: none
 }
-.menu li a:hover{
+.hlist li a:hover{
 	color: white;
 }
-.inputtext{
-	margin-top: 10px;
-	margin-bottom: 10px;
+.pad{
+	   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .banner{
 	margin-bottom: 30px;

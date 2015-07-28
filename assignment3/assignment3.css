@@ -206,3 +206,20 @@ display:block;
 .clearfix{
   clear: both;
 }
+.mlist .container ul li:last-child{
+  clear:both;
+  height: 0;
+  width:0;
+  margin:0;
+  float:none;
+list-style: none;
+}
+.heading ul li:last-child{
+  clear:both;
+  height: 0;
+  width:0;
+  margin:0;
+  float:none;
+list-style: none;
+
+}

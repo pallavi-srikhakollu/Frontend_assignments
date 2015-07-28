@@ -21,7 +21,7 @@ font-style: bold;
 display:block;
 padding: 11px 30px;
 }
-ul{
+.hli {
 float: left;
 list-style-type: none;
 margin-top: 10px;
@@ -103,11 +103,12 @@ display: block;
 height:100px;
 width:100%;
 background-color: #ecab1f;
+clear:both;
 }
 .mlist ul{
-margin-top: 20px;
-margin-bottom: 20px;
+padding-top: 19px;
 }
+
 .mlist li {
 float:left;
 }
